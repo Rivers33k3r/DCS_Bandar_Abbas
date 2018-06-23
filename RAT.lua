@@ -1,87 +1,55 @@
 --#########################
 --### REDs STUFF
-RED_RAT_TOT_FLIGHTS = 10
 
-local RED_rat1 = RAT:New("RAT red #001")
-local RED_rat2 = RAT:New("RAT red #002")
-local RED_rat3 = RAT:New("RAT red #003")
-local RED_rat4 = RAT:New("RAT red #004")
-local RED_rat5 = RAT:New("RAT red #005")
+local RED_RAT_TOT_FLIGHTS = 10
+local RED_RAT_FREQ = 168
 
-RED_rat1:SetCoalition("sameonly")
-RED_rat2:SetCoalition("sameonly")
-RED_rat3:SetCoalition("sameonly")
-RED_rat4:SetCoalition("sameonly")
-RED_rat5:SetCoalition("sameonly")
-RED_rat1:RadioFrequency(269)
-RED_rat2:RadioFrequency(269)
-RED_rat3:RadioFrequency(269)
-RED_rat4:RadioFrequency(269)
-RED_rat5:RadioFrequency(269)
-RED_rat1:ContinueJourney()
-RED_rat2:ContinueJourney()
-RED_rat3:ContinueJourney()
-RED_rat4:ContinueJourney()
-RED_rat5:ContinueJourney()
-RED_rat1:SetTakeoff("cold")
-RED_rat2:SetTakeoff("cold")
-RED_rat3:SetTakeoff("cold")
-RED_rat4:SetTakeoff("cold")
-RED_rat5:SetTakeoff("cold")
+local RED_rats = {
+  RAT:New("RAT red #001"),
+  RAT:New("RAT red #002"),
+  RAT:New("RAT red #003"),
+  RAT:New("RAT red #004"),
+  RAT:New("RAT red #005")
+}
+
+for i = 1, #RED_rats do
+  RED_rats[i]:SetCoalition("sameonly")
+  RED_rats[i]:RadioFrequency(RED_RAT_FREQ)
+  RED_rats[i]:ContinueJourney()
+  RED_rats[i]:SetTakeoff("cold")
+end
 
 local RED_manager = RATMANAGER:New(RED_RAT_TOT_FLIGHTS)
-RED_manager:Add(RED_rat1)
-RED_manager:Add(RED_rat2)
-RED_manager:Add(RED_rat3)
-RED_manager:Add(RED_rat4)
-RED_manager:Add(RED_rat5)
+for i = 1, #RED_rats do
+  RED_manager:Add(RED_rats[i])
+end
 RED_manager:Start()
---RED_manager:Stop(7200)
 
 --#########################
 --### BLUEs STUFF
-BLUE_RAT_TOT_FLIGHTS = 12
+local BLUE_RAT_TOT_FLIGHTS = 12
+local BLUE_RAT_FREQ = 268
 
-local BLUE_rat1 = RAT:New("RAT blue #001")
-local BLUE_rat2 = RAT:New("RAT blue #003")
-local BLUE_rat3 = RAT:New("RAT blue #004")
-local BLUE_rat4 = RAT:New("RAT blue #005")
-local BLUE_rat5 = RAT:New("RAT blue #006")
-local BLUE_rat6 = RAT:New("RAT blue #007")
+local BLUE_rats = {
+  RAT:New("RAT blue #001"),
+  RAT:New("RAT blue #003"),
+  RAT:New("RAT blue #004"),
+  RAT:New("RAT blue #005"),
+  RAT:New("RAT blue #006"),
+  RAT:New("RAT blue #007")
+}
 
-BLUE_rat1:SetCoalition("sameonly")
-BLUE_rat2:SetCoalition("sameonly")
-BLUE_rat3:SetCoalition("sameonly")
-BLUE_rat4:SetCoalition("sameonly")
-BLUE_rat5:SetCoalition("sameonly")
-BLUE_rat6:SetCoalition("sameonly")
-BLUE_rat1:RadioFrequency(269)
-BLUE_rat2:RadioFrequency(269)
-BLUE_rat3:RadioFrequency(269)
-BLUE_rat4:RadioFrequency(269)
-BLUE_rat5:RadioFrequency(269)
-BLUE_rat6:RadioFrequency(269)
-BLUE_rat1:ContinueJourney()
-BLUE_rat2:ContinueJourney()
-BLUE_rat3:ContinueJourney()
-BLUE_rat4:ContinueJourney()
-BLUE_rat5:ContinueJourney()
-BLUE_rat6:ContinueJourney()
-BLUE_rat1:SetTakeoff("cold")
-BLUE_rat2:SetTakeoff("cold")
-BLUE_rat3:SetTakeoff("cold")
-BLUE_rat4:SetTakeoff("cold")
-BLUE_rat5:SetTakeoff("cold")
-BLUE_rat6:SetTakeoff("cold")
+for i = 1, #BLUE_rats do
+  BLUE_rats[i]:SetCoalition("sameonly")
+  BLUE_rats[i]:RadioFrequency(BLUE_RAT_FREQ)
+  BLUE_rats[i]:ContinueJourney()
+  BLUE_rats[i]:SetTakeoff("cold")
+end
 
 local BLUE_manager = RATMANAGER:New(BLUE_RAT_TOT_FLIGHTS)
-BLUE_manager:Add(BLUE_rat1)
-BLUE_manager:Add(BLUE_rat2)
-BLUE_manager:Add(BLUE_rat3)
-BLUE_manager:Add(BLUE_rat4)
-BLUE_manager:Add(BLUE_rat5)
-BLUE_manager:Add(BLUE_rat6)
+for i = 1, #BLUE_rats do
+  BLUE_manager:Add(BLUE_rats[i])
+end
 BLUE_manager:Start()
---BLUE_manager:Stop(7200)
 
 
