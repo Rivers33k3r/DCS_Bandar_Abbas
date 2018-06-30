@@ -14,7 +14,6 @@ A2ADispatcher_blue:SetEngageRadius(70000)
 A2ADispatcher_blue:SetDefaultLandingAtEngineShutdown()
 A2ADispatcher_blue:SetDefaultTakeoffFromRunway()
 A2ADispatcher_blue:SetDefaultFuelThreshold(0.20) -- this i bugged on 2.3.x
-A2ADispatcher_blue:SetTacticalDisplay(true)
 
 
 A2ADispatcher_blue:SetSquadron( "555th", "Dubai Intl", { "555th" }, 12 )
