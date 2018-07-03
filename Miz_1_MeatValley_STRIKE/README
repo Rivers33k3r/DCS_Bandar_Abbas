@@ -22,10 +22,9 @@ Since no official UN resolution is on the table, for the moment only French and 
 French M2KC are providing caps and UK Harrier have just arrived in the area. 
 
 Blue forces are still examinating the situation, trying to find the ideal battleplan.
-Since Oman forces in Sall Ala have counted minutes, the blue coalition decided to rush a combined operation in the valley.
-The objective is to destroy enemy artillery, attack red ships in Khasab port and suppress SAM stations in the are before they reach a more advantageous position.
+Since Oman forces in Sall Ala are in a critical situation, the blue coalition decided to rush a combined operation in the valley.
+The objective is to destroy enemy artillery, attack red ships in Khasab port and suppress SAM stations in the area before they reach a more advantageous position.
 
-The Iranin move was unexpected, the world is shocked but we are not: we have a job to do.
 
 ## RED TASK ##
 ..
@@ -48,7 +47,9 @@ Be sure to push waypoint 4 when Dodge1 is engaging SAM group. You are expected t
 #############
 ## Some notes:
 
-This is my first "released" miz, so please be gentle. One day i will get better :P
+All the shit in here its  just FICTIONAL stuff, nothing of this is real: use your imagination and have fun.
+
+This is my first "released" miz, so please be gentle. One day i will get better  (I hope at least :P)
 
 This mission is not too heavily scripted but be sure to reach the wp 3 and MARSHALL there till it's the right moment to ingress.
 Our Normandy Ticaragua class is giving support to the operation launching cruise missile against forces in Khansab.
@@ -62,4 +63,7 @@ Be sure to contact Stennis and ask for a landing. There should be some traffic a
 Miz version 0.6
 This mission is using MOOSE for CAP and CGI orchestration.
 This version of this mission is without RAT, to check performances.
+There are some issues with the wingman.
+There are some minor ussues on the radio.
+TODO: fix the broken stuff >_>
 

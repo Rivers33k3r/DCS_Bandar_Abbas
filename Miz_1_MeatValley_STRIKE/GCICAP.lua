@@ -16,6 +16,7 @@ A2ADispatcher_red:SetDefaultTakeoffFromRunway()
 A2ADispatcher_red:SetDefaultFuelThreshold(0.20) -- this i bugged on 2.3.x
 --A2ADispatcher_red:SetTacticalDisplay(true)
 
+
 A2ADispatcher_red:SetSquadron( "62th", "Bandar Abbas Intl", { "62th" }, 6 )
 A2ADispatcher_red:SetSquadronGrouping( "62th", 2 )
 A2ADispatcher_red:SetSquadronCap( "62th", ZONE:New("CAP_Red_East"), 4000, 8000, 500, 650, 600, 1200, "BARO" )
@@ -34,12 +35,13 @@ A2ADispatcher_red:SetSquadronCap( "63th", ZONE:New("CAP_Red_M_West"), 4000, 8000
 A2ADispatcher_red:SetSquadronCapInterval( "63th", 1, 30, 120, 1 )
 A2ADispatcher_red:SetSquadronGci( "63th", 800, 1200 )
 
+--[[
 A2ADispatcher_red:SetSquadron( "65th", "Bandar Lengeh", { "65th" }, 6 )
 A2ADispatcher_red:SetSquadronGrouping( "65th", 2 )
 A2ADispatcher_red:SetSquadronCap( "65th", ZONE:New("CAP_Red_West"), 4000, 8000, 500, 650, 600, 1200, "BARO" )
 A2ADispatcher_red:SetSquadronCapInterval( "65th", 1, 30, 120, 1 )
 A2ADispatcher_red:SetSquadronGci( "65th", 800, 1200 )
-
+]]
 
 --A2ADispatcher_red:SetTacticalDisplay(true)
 
@@ -61,12 +63,13 @@ A2ADispatcher_blue:SetDefaultTakeoffFromRunway()
 A2ADispatcher_blue:SetDefaultFuelThreshold(0.20) -- this i bugged on 2.3.x
 --A2ADispatcher_blue:SetTacticalDisplay(true)
 
-
+--[[
 A2ADispatcher_blue:SetSquadron( "555th", "Dubai Intl", { "555th" }, 12 )
 A2ADispatcher_blue:SetSquadronGrouping( "555th", 2 )
 A2ADispatcher_blue:SetSquadronCap( "555th", ZONE:New("CAP_Blue_West"), 4000, 8000, 500, 650, 600, 1200, "BARO" )
 A2ADispatcher_blue:SetSquadronCapInterval( "555th", 1, 30, 120, 1 )
 A2ADispatcher_blue:SetSquadronGci( "555th", 800, 1200 )
+]]
 
 A2ADispatcher_blue:SetSquadron( "92th", "Sharjah Intl", { "92th" }, 12 )
 A2ADispatcher_blue:SetSquadronGrouping( "92th", 2 )
