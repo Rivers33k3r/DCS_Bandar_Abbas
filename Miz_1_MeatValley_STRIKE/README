@@ -7,7 +7,25 @@
 ## SORTIE: Operation MeatValley
 
 ## SITUATION ##
-TODO!
+It's War.
+Iran 2 days ago has crossed the strait of Hormuz approaching Oman coasts from the north.
+Troops have landed to Khasab and after a brief battle the city, port and airfield were conquered.
+
+The northern part of Oman territory is now heavily guarded by Iranian Navy and Cavarly. 
+Numerous armored platoons were disembarked during the night; these units are now moving south to secure Sall Ala Rd and the valley.
+North Oman forces are bottled in the eastern part of the penisula, around Sall Ala, trying to hold the frontline. 
+Heavy fire is reported accross the area, with many casualties during the retreat.
+US Troops have renamed the combat field as "Meatvalley", the tarrain is under artillery fire from both sides.
+Saudi Arabia is moving its army and US is joining the conflict providing support to allies.
+The US Stennis is in the Oman gulf, other american squadrons are dislocating in the United Arab Emirates airfields.
+Since no official UN resolution is on the table, for the moment only French and UK have joined the blue coalition.
+French M2KC are providing caps and UK Harrier have just arrived in the area. 
+
+Blue forces are still examinating the situation, trying to find the ideal battleplan.
+Since Oman forces in Sall Ala have counted minutes, the blue coalition decided to rush a combined operation in the valley.
+The objective is to destroy enemy artillery, attack red ships in Khasab port and suppress SAM stations in the are before they reach a more advantageous position.
+
+The Iranin move was unexpected, the world is shocked but we are not: we have a job to do.
 
 ## RED TASK ##
 ..
@@ -15,7 +33,7 @@ TODO!
 ## BLUE TASK ##
 Ford1: strike red ships in Khasab port.
 Dodge1: Neutralize SAM around Khasab
-Colt1 (you): strike Artillery group in the West part of Sal alad road, aka Meatvalley.
+Colt1 (you): strike Artillery group in the West part of Sall Ala road, aka Meatvalley.
 
 Overlord AWAKS on 251 AM GUARD
 Arco Tanker on Tacan 1X 252AM
@@ -30,13 +48,16 @@ Be sure to push waypoint 4 when Dodge1 is engaging SAM group. You are expected t
 #############
 ## Some notes:
 
-This mission is not too heavily scripted but bet sure to reach the wp 3 and MARSHALL there till it's the right moment to ingress.
-Our Normandy Ticaragua class is giving support to the operation launching cruise missile against force in Khansab
+This is my first "released" miz, so please be gentle. One day i will get better :P
+
+This mission is not too heavily scripted but be sure to reach the wp 3 and MARSHALL there till it's the right moment to ingress.
+Our Normandy Ticaragua class is giving support to the operation launching cruise missile against forces in Khansab.
 
 Khasab is heavely defended and the valley is even more dangerous. 
-Frontline is espected to be around Ghubn Hamad.
+Frontline is espected to be around the village of Ghubn Hamad.
 
-DIvert airfiled is at Fujairah Intl. (it's not a shame to land there, it's just your choice)
+Divert airfield is at Fujairah Intl. (it's not a shame to land there, it's just your choice since case 1 with no light could be pain).
+Be sure to contact Stennis and ask for a landing. There should be some traffic and lights always help...
 
 Miz version 0.6
 This mission is using MOOSE for CAP and CGI orchestration.
